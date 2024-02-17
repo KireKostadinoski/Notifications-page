@@ -1,0 +1,214 @@
+@font-face {
+    font-family: MyFont;
+    src: url('./PlusJakartaSans-VariableFont_wght.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(210, 60%, 98%);
+    font-family: MyFont;
+}
+
+.notifications-main {
+    width: 40%;
+    /* height: 80vh; */
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* flex-wrap: wrap; */
+}
+
+.control {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.control div {
+    display: flex;
+}
+
+.control span {
+    height: 23px;
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: hsl(224, 93%, 17%);
+    color: hsl(0, 0%, 100%);
+    margin-left: 8px;
+}
+
+.control p {
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.notification {
+    width: 100%;
+    /* height: 50px; */
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    margin-top: 8px;
+    position: relative;
+    cursor: pointer;
+}
+
+.notification img {
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.notification p {
+    font-size: 14px;
+    /* text-wrap: wrap; */
+}
+
+.minAgo {
+    margin-top: 4px;
+    color:hsl(200, 6%, 72%);
+    font-weight: 500;
+}
+
+.notification-unread {
+    background-color: hsl(210, 60%, 98%);
+}
+
+.private-message {
+    width: 100%;
+    /* height: 50px; */
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    margin-top: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.private-message p {
+    font-size: 14px;
+}
+
+.private-message img{
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+.message{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+    color:hsl(180, 0%, 52%);
+    font-weight: 500;
+    border: 1px solid gainsboro;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.message:hover{
+    background-color:  hsl(207, 59%, 87%);
+}
+
+.chess-img{
+    position: absolute;
+    right: 0; 
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.profile-name{
+    color:hsl(224, 21%, 14%);
+    font-weight: bold;
+}
+
+.notification-text{
+    color:hsl(219, 14%, 63%);
+    font-weight: 400;
+}
+
+.reacted-notification {
+    color: hsl(219, 12%, 42%);
+    font-weight: bold;
+}
+
+.group-notification{
+    color:hsl(218, 92%, 15%);
+    font-weight: bold;
+}
+
+.red-dot{
+    margin-left: 3px;
+    color: rgb(237, 17, 17);
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1100px) {
+    .notifications-main {
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .notifications-main {
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .notifications-main {
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .notifications-main {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .notifications-main {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .notifications-main {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .notifications-main {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .notifications-main {
+        width: 80%;
+    }
+}
