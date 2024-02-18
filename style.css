@@ -161,13 +161,6 @@ body {
 
 @media screen and (max-width: 1100px) {
     .notifications-main {
-        width: 50%;
-    }
-}
-
-
-@media screen and (max-width: 900px) {
-    .notifications-main {
         width: 60%;
     }
 }
@@ -180,16 +173,23 @@ body {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .notifications-main {
         width: 80%;
     }
 }
 
 
+@media screen and (max-width: 800px) {
+    .notifications-main {
+        width: 90%;
+    }
+}
+
+
 @media screen and (max-width: 700px) {
     .notifications-main {
-        width: 80%;
+        width: 90%;
     }
 }
 
@@ -197,7 +197,7 @@ body {
     .notifications-main {
         position: absolute;
         top: 50px;
-        width: 80%;
+        width: 90%;
     }
 
     .control p {
@@ -208,7 +208,7 @@ body {
 
 @media screen and (max-width: 500px) {
     .notifications-main {
-        width: 80%;
+        width: 90%;
     }
 }
 

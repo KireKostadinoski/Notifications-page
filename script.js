@@ -1,4 +1,4 @@
-let notificationsNumber = document.getElementById('3notifications');
+let notificationsNumber = document.getElementById('notifications');
 
 let notification1 = document.getElementById('notification1');
 let notification2 = document.getElementById('notification2');
