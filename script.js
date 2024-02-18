@@ -13,7 +13,7 @@ function readNotifications(){
     notification2.classList.remove('notification-unread');
     notification3.classList.remove('notification-unread');
 
-    notificationsNumber.style.display = 'none';
+    notificationsNumber.innerHTML = '0';
 
     dot1.style.display = "none";
     dot2.style.display = "none";
